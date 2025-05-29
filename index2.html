@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -79,6 +79,9 @@
 
     .task-text {
       flex: 1;
+      word-break: break-word;
+  max-width: 6em;
+  line-height: 1.2em;
     }
 
     .task-btn {
@@ -125,7 +128,7 @@
   <h1>ToDoリスト</h1>
 
   <div class="add-category-section">
-    <input type="text" id="newCategoryInput" placeholder="新しいカテゴリ名">
+    <input type="text" id="newCategoryInput" placeholder="NEWカテゴリ名">
     <button onclick="addNewCategory()">カテゴリ追加</button>
   </div>
 
